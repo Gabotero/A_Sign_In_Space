@@ -1,0 +1,19 @@
+{
+    "global": {
+        "core:datatype": "ci8",
+        "core:description": "A Sign in Space: Green Bank Telescope recording",
+        "core:hw": "Green Bank Telescope (RHCP polarization)",
+        "core:recorder": "BLP33",
+        "core:sample_rate": 1000000,
+        "core:sha512": "8f5abaccf23781ce0d98e0dd3535dd7c807501602eb50f0df9b6e883c29a6dec92637e8124f8c2396cc35b66812c89989f0124fd3aa85a5a270cc8dc41a3f4b0",
+        "core:version": "1.1.1"
+    },
+    "captures": [
+        {
+            "core:datetime": "2023-05-24T19:11:00Z",
+            "core:frequency": 8410272812.5,
+            "core:sample_start": 0
+        }
+    ],
+    "annotations": []
+}
