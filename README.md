@@ -43,7 +43,7 @@ The **GNU Radio** [flowgraph](Demodulation.grc) provides you with the [blocks](r
 
 ![Logo](resources/GBT.png)
 
-## Useful references to follow the reverse engineering process
+## Useful References to Follow the Reverse Engineering Process
 1. [CCSDS - SFCG Efficient Modulation Methods Study - A Comparison of Modulation Schemes](resources/CCSDS-SFCG_Efficient_Modulation_Methods_Study-A_Comparison_of_Modulation_Schemes.pdf)
 2. [CCSDS - TM Synchronization and Channel Coding (Blue Book)](resources/CCSDS_TM_Synchronization_and_Channel_Coding.pdf)
 3. [CCSDS - TM Space Data Link Protocol (Blue Book)](resources/CCSDS_TM_Space_Data_Link_Protocol.pdf)
