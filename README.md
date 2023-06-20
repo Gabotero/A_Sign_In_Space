@@ -3,7 +3,7 @@
 This repository contains my custom solution, coded from scratch, for the demodulation and analysis of the data transmitted by ExoMars TGO for "[A Sign In Space](https://asignin.space)" event.
 
 <p align="center">
-  <img width="600" height="200" src="resources/tgo.png">
+  <img src="resources/tgo.png">
 </p>
 
 I believe that learning is a continuous (and never-ending) journey, and I hope that the solution provided in this repository serves as a valuable resource for anyone who is eager to delve into the fascinating world of interplanetary signal decoding. My aim is to share my knowledge and experiences so that others can learn and grow as much as I did by doing this. 
