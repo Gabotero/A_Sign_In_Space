@@ -16,7 +16,7 @@ You may research the Python code snippet [Packet_Analysis.py](Analysis/Packet_An
 
  ![Logo](resources/virtual_channels.png)
  
-- [x] Unpack and classify the **_CCSDS Space Packet Protocol_** packets inside the CCSDS frames, into different _Application Process Identifiers_ (APIDs).
+- [x] Unpack and classify **_CCSDS Space Packet Protocol_** packets inside the CCSDS frames, into different _Application Process Identifiers_ (APIDs).
 
 ![Logo](resources/apids.png)
 
