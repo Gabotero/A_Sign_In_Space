@@ -37,7 +37,7 @@ The **GNU Radio** [flowgraph](Demodulation.grc) provides you with the [blocks](r
 
 - GNU Radio 3.8 & Python 3.8.
 
-![Logo](resources/GBT.png)
+![Logo](resources/gnuradio.png)
 
 - The signal. I used the recording made at *Green Bank Telescope* (GBT).  You can download it [here](https://zenodo.org/record/7982936#.ZHXl_3ZBy3B) (*A_Sign_in_Space-GBT.sigmf-data* - 4.5 GB). If you want it to work seamlessly with the provided flowgraph, place the recording in the [recording](recording/) folder.
 
