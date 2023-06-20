@@ -11,7 +11,7 @@ The **GNU Radio** [flowgraph](Demodulation.grc) provides you with the [blocks](r
 
 ## Python Code Snippets
 
-You may research the Python code snippet [Packet_Analysis.py](Analysis/Packet_Analysis.py) to check how to:
+1. You may research the Python code snippet [Packet_Analysis.py](Analysis/Packet_Analysis.py) to check how to:
  - [x] Unpack and classify the **_CCSDS TM Space Data Link Protocol Frames_** into different _Virtual Channels_.
 
  ![Logo](resources/virtual_channels.png)
@@ -23,10 +23,14 @@ You may research the Python code snippet [Packet_Analysis.py](Analysis/Packet_An
 - [x] Extract the information of a target _APID_. In our case, `APID #23`, with 1800 Space Packets. Click [here](https://youtu.be/zgQq36IR-Lk?t=2408) to understand why we took this shortcut.
 - [x]  Extract the packet inside the Space Packets. In our case Packet Utilization Standard (PUS) Packets. Check the file [Data_Analysis.py](Analysis/Data_reverse_engineering) to see the structure of the PUS Packets, and how it can be understood. The final data is saved to [raw_data.bin].(Analysis/raw_data.bin)
 ![Logo](resources/Data_Memory_Dump.png)
-You may use the Python code snippet [Data_Analysis.py](Analysis/Data_Analysis.py) to:
+
+2. You may use the Python code snippet [Data_Analysis.py](Analysis/Data_Analysis.py) to:
+
 - [x] Explore the contents of *The Message*, taking [raw_data.bin](Analysis/raw_data.bin) as an input.
 - [x] The python code shows the header and trailer bit stream, computes autocorrelation of the bitstream, and plots an image whose number of columns matches the index of maximum autocorrelation. This is one of the many (*infinite?*) ways to understand the message but was one of the most popular and accepted ones in the [Discord community](https://discord.com/invite/2upxzmZkqY).
+      
 ![Logo](resources/The_Message_asImage.png)
+
 - [ ] Feel free to play with it and find new interpretations of the bitstream!
 
 ## Prerequisites
