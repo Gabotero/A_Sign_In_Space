@@ -16,11 +16,11 @@ The **GNU Radio** [flowgraph](Demodulation.grc) provides you with the [blocks](r
 1. You may research the Python code snippet [Packet_Analysis.py](Analysis/Packet_Analysis.py) to check how to:
  - [x] Unpack and classify the **_CCSDS TM Space Data Link Protocol Frames_** into different _Virtual Channels_.
 
-<p align="center"><img src="resources/virtual_channels.png"></p>
+<p align="center"><img src="resources/virtual_channels.png" width="50%"></p>
  
 - [x] Unpack and classify **_CCSDS Space Packet Protocol_** packets inside the CCSDS frames, into different _Application Process Identifiers_ (APIDs).
 
-<p align="center"><img src="resources/apids.png"></p>
+<p align="center"><img src="resources/apids.png" width="50%"></p>
 
 - [x] Extract the information of a target _APID_. In our case, `APID #23`, with 1800 Space Packets. Click [here](https://youtu.be/zgQq36IR-Lk?t=2408) to understand why we took this shortcut.
 - [x]  Extract the packet inside the Space Packets. In our case Packet Utilization Standard (PUS) Packets. Check the file [Data_Analysis.py](Analysis/Data_reverse_engineering) to see the structure of the PUS Packets, and how it can be understood. The final data is saved to [raw_data.bin](Analysis/raw_data.bin)
