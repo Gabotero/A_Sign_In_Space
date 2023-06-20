@@ -7,7 +7,7 @@ I believe that learning is a continuous (and never-ending) journey, and I hope t
 Throughout the process, it's important to note that I expedited certain aspects of the reverse engineering process by leveraging the collective knowledge and insights shared by fellow enthusiasts in the [Discord community](https://discord.com/invite/2upxzmZkqY) dedicated to this project. By standing on the shoulders of those who have come before us, we can accelerate our understanding and push the boundaries of what is possible. I encourage everyone to embrace the collaborative spirit, actively engage with others, and together, let's embark on an exciting learning journey.
 
 # GNU Radio Flowgraph
-The **GNU Radio** [flowgraph](resources/Demodulation.pdf) provides you with the blocks to visualize and guess the key parameters about the received signal and finishes with the extraction of the **_CCSDS TM Space Data Link Protocol Frames_**. These are saved in [final_decoded_frames.u8](final_decoded_frames.u8) binary file (adjust the flowgraph sink file to your preferences).
+The **GNU Radio** [flowgraph](Demodulation.grc) provides you with the [blocks](resources/Demodulation.pdf) to visualize and guess the key parameters about the received signal and finishes with the extraction of the **_CCSDS TM Space Data Link Protocol Frames_**. These are saved in [final_decoded_frames.u8](final_decoded_frames.u8) binary file (adjust the flowgraph sink file to your preferences).
 
 ## Python Code Snippets
 
