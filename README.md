@@ -34,7 +34,7 @@ The **GNU Radio** [flowgraph](Demodulation.grc) provides you with the [blocks](r
 2. You may use the Python code snippet [Data_Analysis.py](Analysis/Data_Analysis.py) to:
 
 - [x] Explore the contents of *The Message*, taking [raw_data.bin](Analysis/raw_data.bin) as an input.
-- [x] The python code shows the header and trailer bit stream, computes autocorrelation of the bitstream, and plots an image whose number of columns matches the index of maximum autocorrelation. This is one of the many (*infinite?*) ways to understand the message but was one of the most popular and accepted ones in the [Discord community](https://discord.com/invite/2upxzmZkqY).
+- [x] The python code shows the header and trailer bit stream, computes autocorrelation of the bitstream, and plots an image whose number of columns matches the index of maximum autocorrelation. This is one of the many (*infinite?*) ways to understand the message but it is one of the most popular and accepted in the [Discord community](https://discord.com/invite/2upxzmZkqY).
       
 <p align="center"><img src="resources/The_Message_asImage.png" width="120%"></p>
 
