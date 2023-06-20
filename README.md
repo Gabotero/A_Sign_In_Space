@@ -21,7 +21,7 @@ The **GNU Radio** [flowgraph](Demodulation.grc) provides you with the [blocks](r
 ![Logo](resources/apids.png)
 
 - [x] Extract the information of a target _APID_. In our case, `APID #23`, with 1800 Space Packets. Click [here](https://youtu.be/zgQq36IR-Lk?t=2408) to understand why we took this shortcut.
-- [x]  Extract the packet inside the Space Packets. In our case Packet Utilization Standard (PUS) Packets. Check the file [Data_Analysis.py](Analysis/Data_reverse_engineering) to see the structure of the PUS Packets, and how it can be understood. The final data is saved to [raw_data.bin].(Analysis/raw_data.bin)
+- [x]  Extract the packet inside the Space Packets. In our case Packet Utilization Standard (PUS) Packets. Check the file [Data_Analysis.py](Analysis/Data_reverse_engineering) to see the structure of the PUS Packets, and how it can be understood. The final data is saved to [raw_data.bin](Analysis/raw_data.bin)
 ![Logo](resources/Data_Memory_Dump.png)
 
 2. You may use the Python code snippet [Data_Analysis.py](Analysis/Data_Analysis.py) to:
