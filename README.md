@@ -11,6 +11,8 @@ Throughout the process, it's important to note that I expedited certain aspects 
 # GNU Radio Flowgraph
 The **GNU Radio** [flowgraph](Demodulation.grc) provides you with the [blocks](resources/Demodulation.pdf) to visualize and guess the key parameters about the received signal and finishes with the extraction of the **_CCSDS TM Space Data Link Protocol Frames_**. These are saved in [final_decoded_frames.u8](final_decoded_frames.u8) binary file (adjust the flowgraph sink file to your preferences).
 
+<p align="center"><img src="resources/gnuradio_output.png" width="90%"></p>
+
 ## Python Code Snippets
 
 1. You may research the Python code snippet [Packet_Analysis.py](Analysis/Packet_Analysis.py) to check how to:
