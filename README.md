@@ -18,7 +18,7 @@ The **GNU Radio** [flowgraph](Demodulation.grc) provides you with the [blocks](r
 1. You may research the Python code snippet [Packet_Analysis.py](Analysis/Packet_Analysis.py) to check how to:
  - [x] Unpack and classify the **_CCSDS TM Space Data Link Protocol Frames_** into different _Virtual Channels_.
 
-<p align="center"><img src="resources/virtual_channels.png" style="max-width: 50%; height: auto;"></p>
+<p align="center"><img src="resources/virtual_channels.png" style="max-width: 40%; height: auto;"></p>
  
 - [x] Unpack and classify **_CCSDS Space Packet Protocol_** packets inside the CCSDS frames, into different _Application Process Identifiers_ (APIDs).
 
