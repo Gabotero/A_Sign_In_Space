@@ -1,8 +1,7 @@
 ![Logo](resources/logo.gif)
-![Logo](resources/setilogo.gif) 
 # A Sign in Space
 This repository contains my custom solution, coded from scratch, for the demodulation and analysis of the data transmitted by ExoMars TGO for "[A Sign In Space](https://asignin.space)" event. 
-![Logo](resources/tgo.gif)
+![Logo](resources/logo.gif)
 I believe that learning is a continuous (and never-ending) journey, and I hope that the solution provided in this repository serves as a valuable resource for anyone who is eager to delve into the fascinating world of interplanetary signal decoding. My aim is to share my knowledge and experiences so that others can learn and grow as much as I did by doing this. 
 
 Throughout the process, it's important to note that I expedited certain aspects of the reverse engineering process by leveraging the collective knowledge and insights shared by fellow enthusiasts in the [Discord community](https://discord.com/invite/2upxzmZkqY) dedicated to this project. By standing on the shoulders of those who have come before us, we can accelerate our understanding and push the boundaries of what is possible. I encourage everyone to embrace the collaborative spirit, actively engage with others, and together, let's embark on an exciting learning journey.
