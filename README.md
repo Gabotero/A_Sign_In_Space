@@ -2,9 +2,7 @@
 # A Sign in Space
 This repository contains my custom solution, coded from scratch, for the demodulation and analysis of the data transmitted by ExoMars TGO for "[A Sign In Space](https://asignin.space)" event.
 
-<p align="center">
-  <img src="resources/tgo.png">
-</p>
+<p align="center"><img src="resources/tgo.png"></p>
 
 I believe that learning is a continuous (and never-ending) journey, and I hope that the solution provided in this repository serves as a valuable resource for anyone who is eager to delve into the fascinating world of interplanetary signal decoding. My aim is to share my knowledge and experiences so that others can learn and grow as much as I did by doing this. 
 
@@ -18,22 +16,23 @@ The **GNU Radio** [flowgraph](Demodulation.grc) provides you with the [blocks](r
 1. You may research the Python code snippet [Packet_Analysis.py](Analysis/Packet_Analysis.py) to check how to:
  - [x] Unpack and classify the **_CCSDS TM Space Data Link Protocol Frames_** into different _Virtual Channels_.
 
-<p align="center"><img src="resources/virtual_channels.png" style="max-width: 10%; height: auto;"></p>
+<p align="center"><img src="resources/virtual_channels.png"></p>
  
 - [x] Unpack and classify **_CCSDS Space Packet Protocol_** packets inside the CCSDS frames, into different _Application Process Identifiers_ (APIDs).
 
-![Logo](resources/apids.png)
+<p align="center"><img src="resources/apids.png"></p>
 
 - [x] Extract the information of a target _APID_. In our case, `APID #23`, with 1800 Space Packets. Click [here](https://youtu.be/zgQq36IR-Lk?t=2408) to understand why we took this shortcut.
 - [x]  Extract the packet inside the Space Packets. In our case Packet Utilization Standard (PUS) Packets. Check the file [Data_Analysis.py](Analysis/Data_reverse_engineering) to see the structure of the PUS Packets, and how it can be understood. The final data is saved to [raw_data.bin](Analysis/raw_data.bin)
-![Logo](resources/Data_Memory_Dump.png)
+
+<p align="center"><img src="resources/Data_Memory_Dump.png"></p>
 
 2. You may use the Python code snippet [Data_Analysis.py](Analysis/Data_Analysis.py) to:
 
 - [x] Explore the contents of *The Message*, taking [raw_data.bin](Analysis/raw_data.bin) as an input.
 - [x] The python code shows the header and trailer bit stream, computes autocorrelation of the bitstream, and plots an image whose number of columns matches the index of maximum autocorrelation. This is one of the many (*infinite?*) ways to understand the message but was one of the most popular and accepted ones in the [Discord community](https://discord.com/invite/2upxzmZkqY).
       
-![Logo](resources/The_Message_asImage.png)
+<p align="center"><img src="resources/The_Message_asImage.png"></p>
 
 - [ ] Feel free to play with it and find new interpretations of the bitstream!
 
@@ -45,7 +44,7 @@ The **GNU Radio** [flowgraph](Demodulation.grc) provides you with the [blocks](r
 
 - The signal. I used the recording made at *Green Bank Telescope* (GBT).  You can download it [here](https://zenodo.org/record/7982936#.ZHXl_3ZBy3B) (*A_Sign_in_Space-GBT.sigmf-data* - 4.5 GB). If you want it to work seamlessly with the provided flowgraph, place the recording in the [recording](recording/) folder.
 
-![Logo](resources/GBT.png)
+<p align="center"><img src="resources/GBT.png" width="50%"></p>
 
 ## Useful References to Follow the Reverse Engineering Process
 1. [CCSDS - SFCG Efficient Modulation Methods Study - A Comparison of Modulation Schemes](resources/CCSDS-SFCG_Efficient_Modulation_Methods_Study-A_Comparison_of_Modulation_Schemes.pdf)
