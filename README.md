@@ -1,4 +1,5 @@
-![Logo](resources/logo.gif) ![Logo](resources/setilogo.gif) 
+![Logo](resources/logo.gif)
+![Logo](resources/setilogo.gif) 
 # A Sign in Space
 This repository contains my custom solution, coded from scratch, for the demodulation and analysis of the data transmitted by ExoMars TGO for "[A Sign In Space](https://asignin.space)" event. 
 ![Logo](resources/tgo.gif)
