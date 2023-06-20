@@ -2,7 +2,7 @@
 # A Sign in Space
 This repository contains my custom solution, coded from scratch, for the demodulation and analysis of the data transmitted by ExoMars TGO for "[A Sign In Space](https://asignin.space)" event.
 
-<p align="center"><img src="resources/tgo.png"></p>
+<p align="center"><img src="resources/tgo.png" width="110%"></p>
 
 I believe that learning is a continuous (and never-ending) journey, and I hope that the solution provided in this repository serves as a valuable resource for anyone who is eager to delve into the fascinating world of interplanetary signal decoding. My aim is to share my knowledge and experiences so that others can learn and grow as much as I did by doing this. 
 
@@ -20,7 +20,7 @@ The **GNU Radio** [flowgraph](Demodulation.grc) provides you with the [blocks](r
  
 - [x] Unpack and classify **_CCSDS Space Packet Protocol_** packets inside the CCSDS frames, into different _Application Process Identifiers_ (APIDs).
 
-<p align="center"><img src="resources/apids.png" width="75%"></p>
+<p align="center"><img src="resources/apids.png" width="70%"></p>
 
 - [x] Extract the information of a target _APID_. In our case, `APID #23`, with 1800 Space Packets. Click [here](https://youtu.be/zgQq36IR-Lk?t=2408) to understand why we took this shortcut.
 - [x]  Extract the packet inside the Space Packets. In our case Packet Utilization Standard (PUS) Packets. Check the file [Data_Analysis.py](Analysis/Data_reverse_engineering) to see the structure of the PUS Packets, and how it can be understood. The final data is saved to [raw_data.bin](Analysis/raw_data.bin)
